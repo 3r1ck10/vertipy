@@ -8,12 +8,12 @@ from setuptools import setup
 
 setup(
     name='vertipy',
-    version='1.0.0.0',
+    version='1.0.0.2',
     description='Primera version de vertipy!',
     packages = ['vertipy'],
     license='MIT',
     author_email='erick.alvarez.met@gmail.com',
-    download_url='https://github.com/3r1ck10/vertipy/archive/v1.0.0.0.tar.gz',
+    download_url='https://github.com/3r1ck10/vertipy/archive/v1.0.0.2.tar.gz',
     install_requires=['numpy',
     'matplotlib','xarray','netcdf4'],
     classifiers=[

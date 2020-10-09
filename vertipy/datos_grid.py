@@ -50,7 +50,7 @@ def open_hybrid_sigma_params(a=None,b=None,ps=None,p0=None,data=None,decode_time
             datos['p0']=p0
     return hybrid_sigma(datos)
 
-def interpolate_to_pressure(data,var,presion,niveles,extrapolate=False,decode_times=True):
+def interpolate_to_pressure(data,presion,niveles,extrapolate=False,decode_times=True):
     #interpolar datos a presion
     try:
         data=xray.open_dataset(data,decode_times=decode_times)
